@@ -15,3 +15,15 @@ With Vundle
     " inside .vimrc
     Plugin 'huleiak47/vim-cmake-complete' 
 ~~~
+
+
+## Generate cmake Dict
+
+- python3
+- cmake
+
+```python
+cd ./autoload/
+python ./cmakecomp.py
+```
+
